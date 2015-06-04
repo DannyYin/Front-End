@@ -1,0 +1,97 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+<title>第一次作业表格</title>
+<style>
+
+* {margin:0;
+   padding:0;
+   font-size: 12px;
+   font-family: Arial;
+}
+
+body{
+	width:900px;
+	margin:0 auto;
+}
+
+div{
+	width:900px;
+}
+
+table{
+	border-collapse:collapse;
+}
+
+table caption{
+	padding:10px;
+	font-weight: bold;
+	font-size:12px;
+}
+
+table th,td{
+	padding:15px;
+	border:1px solid black;
+
+}
+
+table th{
+	background:lightgray;
+}
+
+table tr td.gray{
+	text-align: center;
+	background:lightgray;
+	font-weight: bold;
+}
+
+table tr th#left
+{
+	text-align: left;
+	padding-left:15px;
+	background:lightgray;
+}
+
+</style>
+</head>
+
+<body>
+<div>
+<table>
+   <caption>运费详情</caption>
+     <tr>
+	     <th class="gray">区域</td>
+	     <th class="gray" id="left">寄达地</th>
+	     <th class="gray">首重（元/1000g）</th>
+	     <th class="gray">续重（元/1000g）</th>
+     </tr>
+      <tr>
+	     <td rowspan="2" class="gray">一区</td>
+	     <td>浙江、上海、江苏</td>
+	     <td>6</td>
+	     <td>1</td>
+     </tr>
+      <tr>
+	     <td>江西、安徽</td>
+	     <td>7</td>
+	     <td>1</td>
+     </tr>
+      <tr>
+	     <td class="gray">二区</td>
+	     <td>吉林、黑龙江、云南</td>
+	     <td>10</td>
+	     <td>6</td>
+     </tr>
+      <tr>
+	     <td class="gray">三区</td>
+	     <td>新疆、西藏</td>
+	     <td>15</td>
+	     <td>10</td>
+     </tr>
+</table>	
+</div>
+
+</body>
+
+</html>
